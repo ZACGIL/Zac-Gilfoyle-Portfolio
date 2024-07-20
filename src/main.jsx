@@ -6,7 +6,7 @@ import App from './App';
 import Error from './components/pages/ErrorPage';
 import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
+import Portfolio from './components/pages/PortfolioPage';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 

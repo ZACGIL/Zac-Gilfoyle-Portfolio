@@ -4,10 +4,8 @@ export default function Home() {
 
     return (
         <div>
-            <h1>This is home!</h1>
-            <ul>
-
-            </ul>
+            <h1 className="text-center text-green-600">Welcome!</h1>
+            <Button link="/AboutMe"></Button>
         </div>
     );
 }

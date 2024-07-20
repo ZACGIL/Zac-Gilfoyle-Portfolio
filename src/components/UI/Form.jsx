@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Form() {
-    
+
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [company, setCompany] = useState('');
