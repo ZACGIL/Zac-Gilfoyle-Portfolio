@@ -5,7 +5,6 @@ export default function Navbar({ links }) {
                 <ul>
                     {links.map((link) => link)}
                 </ul>
-
             </div>
         </nav>
     );
