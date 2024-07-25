@@ -6,7 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      'maxsm': { 'max': '675px' },
+      'sm': '576px',
+      'md': '960px',
+      'lg': '1440px',
+    }
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 }
 

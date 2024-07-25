@@ -3,24 +3,26 @@ import Navbar from './UI/Navbar';
 
 export default function Nav() {
     return (
-        <Navbar
+        <div className='text-white'>
+            <Navbar
             links={[
-                <Link key={1} to="/">
+                <Link className='m-3' key={1} to="/">
                     Home
                 </Link>,
-                <Link key={2} to="/AboutMe">
+                <Link className='m-3' key={2} to="/AboutMe">
                     About Me
                 </Link>,
-                <Link key={3} to="/Portfolio">
+                <Link className='m-3' key={3} to="/Portfolio">
                     Portfolio
                 </Link>,
-                <Link key={4} to="/Contact">
+                <Link className='m-3' key={4} to="/Contact">
                     Contact
                 </Link>,
-                <Link key={5} to="/Resume">
+                <Link className='m-3' key={5} to="/Resume">
                     Resume
                 </Link>
             ]}
         />
+        </div>
     );
 }

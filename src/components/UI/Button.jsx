@@ -12,7 +12,7 @@ export default function Button(props) {
         }
     }
 
-    return <button className={`${props.classes || 'text-center'}`} type="button" onClick={handleClick}>
+    return <button className={`${props.className || 'text-center'}`} type="button" onClick={handleClick}>
         {`${props.text || 'Click Here'}`}
     </button>
 }

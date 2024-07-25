@@ -9,7 +9,7 @@ export default function App() {
             <header>
                 < Header />
             </header>
-            <main>
+            <main className='flex justify-center min-h-screen my-5'>
                 < Outlet />
             </main>
             <footer>
